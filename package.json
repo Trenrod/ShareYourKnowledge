@@ -1,0 +1,29 @@
+{
+  "name": "shareyourknowledge",
+  "version": "0.0.0",
+  "description": "Simple platform to share your knowledge and others subscribe to it",
+  "main": "source/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trenrod/ShareYourKnowledge.git"
+  },
+  "author": "Albert Dorn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Trenrod/ShareYourKnowledge/issues"
+  },
+  "homepage": "https://github.com/Trenrod/ShareYourKnowledge#readme",
+  "devDependencies": {
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6"
+  }
+}
