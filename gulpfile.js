@@ -4,7 +4,7 @@ var babelify = require('babelify');
 var source = require('vinyl-source-stream');
 
 gulp.task('default', function(){
-    return browsify('./source/app.js')
+    return browsify('./source/main.js')
         .transform(babelify)
         .bundle()
         .pipe(source('shareyourknowledge.js'))
